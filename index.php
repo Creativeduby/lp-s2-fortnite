@@ -1,7 +1,7 @@
 <?php
-foreach (glob("/*.") as $filename)
+foreach (glob("main/*") as $filename)
 {
-    include $filename;
+    include_once $filename;
 }
 ?>
 
