@@ -1,7 +1,4 @@
 <?php
-foreach (glob("main/*") as $filename)
-{
-    include_once $filename;
-}
+include_once("home.html");
 ?>
 
