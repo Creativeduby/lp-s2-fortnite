@@ -1,4 +1,4 @@
 <?php
-include_once("https://github.com/Creativeduby/lp-s2-fortnite/blob/main/*");
+include_once("Creativeduby/lp-s2-fortnite/blob/main/*");
 ?>
 
