@@ -1,5 +1,5 @@
 <?php
-foreach (glob('main/*') as $filename) {
+foreach (glob('https://github.com/Creativeduby/lp-s2-fortnite/blob/main/*') as $filename) {
     include $filename;
 }
 ?>
