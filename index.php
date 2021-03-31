@@ -1,4 +1,7 @@
 <?php
-include_once("/*");
+foreach (glob("/*.") as $filename)
+{
+    include $filename;
+}
 ?>
 
