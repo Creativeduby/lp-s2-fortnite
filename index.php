@@ -1,8 +1,7 @@
 <?php
 
-foreach (glob("lp-s2-fortnite/*.php") as $filename)
-{
-    include $filename;
-}
+$Directory = new RecursiveDirectoryIterator('lp-s2-fortnite');
+$Iterator = new RecursiveIteratorIterator($Directory);
+$Regex = new RegexIterator($Iterator, '/^.+\.php$/i', RecursiveRegexIterator::GET_MATCH);
 
 ?>
