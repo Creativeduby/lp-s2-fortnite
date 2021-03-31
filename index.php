@@ -1,5 +1,5 @@
 <?php
-foreach (glob("lp-s2-fortnite/*") as $filename) {
+foreach (glob(/*") as $filename) {
     include $filename;
 }
 ?>
